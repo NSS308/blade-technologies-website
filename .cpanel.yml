@@ -3,3 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/bladjjig/public_html/
     - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - chmod 0755 /home/bladjjig/public_html
